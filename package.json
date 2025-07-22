@@ -3,7 +3,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "tsc --noEmit"
   },
   "devDependencies": {
     "@effect/vitest": "^0.25.0",
