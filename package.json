@@ -1,0 +1,25 @@
+{
+  "name": "min_effect-sql-array",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@effect/vitest": "^0.25.0",
+    "@testcontainers/postgresql": "^11.3.1",
+    "@types/bun": "latest",
+    "vitest": "^3.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.89.0",
+    "@effect/platform-bun": "^0.75.0",
+    "@effect/sql": "^0.43.0",
+    "@effect/sql-pg": "^0.44.0",
+    "effect": "^3.17.0",
+    "pg": "^8.16.3"
+  }
+}
